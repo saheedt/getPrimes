@@ -22,7 +22,7 @@ describe("Number Manipulation Functionality", function() {
 		expect(myApp.getprimes('a')).toEqual([]);
 	})
 	it("should return [] as prime numbers when input n is boolean value of true", function(){
-		expect(myApp.getprimes('a')).toEqual([]);
+		expect(myApp.getprimes(true)).toEqual([]);
 	})
 	it("should return [] as prime numbers when no value is input for n ", function(){
 		expect(myApp.getprimes()).toEqual([]);
